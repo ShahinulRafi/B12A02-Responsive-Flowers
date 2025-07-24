@@ -9,23 +9,28 @@
 </head>
 
 <body>
-    <header class="mt-7 mx-40">
+    <header class="mt-7 md:mx-40 mx-10">
         <nav class="flex justify-between">
             <div>
                 <img src="assets/logo.png" alt="">
             </div>
             <div class="">
                 <ul class="flex justify-between gap-5">
-                    <li><a href="" class="font-bold">Home</a></li>
-                    <li><a href="" class="text-gray-500">Shop</a></li>
-                    <li><a href="" class="text-gray-500">About us</a></li>
+                    <li class="hidden md:block"><a href="" class="font-bold">Home</a></li>
+                    <li class="hidden md:block"><a href="" class="text-gray-500">Shop</a></li>
+                    <li class="hidden md:block"><a href="" class="text-gray-500">About us</a></li>
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#E95A08]" fill="" viewBox="0 0 24 24">
+  <path d="M2.25 3a.75.75 0 000 1.5h1.386l.529 2.115L5.57 9.59l1.06 4.239a2.25 2.25 0 002.186 1.671h7.835a2.25 2.25 0 002.186-1.671l1.492-5.961A.75.75 0 0019.625 6H6.182L5.28 2.68A.75.75 0 004.552 2H2.25zM8.25 20.25a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm7.5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/>
+</svg>
                     <li><a href="">Cart($56)</a></li>
+                    </div>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="mt-28">
-        <section class="mx-40 flex justify-between items-end">
+        <section class="md:mx-40 mx-10 flex justify-between items-end">
             <div class="">
                 <h1 class="font-bold text-5xl">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
                 <p class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop.
@@ -34,79 +39,89 @@
             </div>
             <div class="w-full h-full ml-100"><img src="assets/hero-flower.png" alt=""></div>
         </section>
-        <section class="mx-40 mt-20">
+        <section class="md:mx-40 mx-10 mt-20">
             <div class="text-center">
                 <h1 class="font-bold mb-2 text-4xl"><span class="text-[#E95A08]">Our</span> Plants</h1>
-                <p class="text-gray-500 mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                <p class="text-gray-500 mb-5">Indulge your senses with the beauty and fragrance of our fresh flower
+                    shop.
                     From classic roses to
                     exotic blooms, we offer a wide variety of fresh.</p>
             </div>
-            <div class="flex justify-between gap-5 flex-wrap">
-                <div class="text-center h-96 w-64">
+            <div class="grid grid-cols-2 gap-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4">
+                <div class="text-center h-96 w-full">
                     <img src="assets/sample-flower-image.png" alt="">
                     <h1>Lily Blossom</h1>
                     <h2 class="font-bold">20 USD</h2>
-                    <button class="bg-[#E95A08] w-64 px-12 py-2"><span class="text-sm text-white font-bold">ADD TO
-                            CART</span></button>
+                    <button class="bg-[#E95A08] w-full md:px-12 py-2">
+                        <span class="text-sm text-white font-bold">ADD TO CART</span>
+                    </button>
                 </div>
-                <div class="text-center h-96 w-64">
+                <div class="text-center h-96 w-full">
                     <img src="assets/sample-flower-image.png" alt="">
                     <h1>Lily Blossom</h1>
                     <h2 class="font-bold">20 USD</h2>
-                    <button class="bg-[#E95A08] w-64 px-12 py-2"><span class="text-sm text-white font-bold">ADD TO
-                            CART</span></button>
+                    <button class="bg-[#E95A08] w-full md:px-12 py-2">
+                        <span class="text-sm text-white font-bold">ADD TO CART</span>
+                    </button>
                 </div>
-                <div class="text-center h-96 w-64">
+                <div class="text-center h-96 w-full">
                     <img src="assets/sample-flower-image.png" alt="">
                     <h1>Lily Blossom</h1>
                     <h2 class="font-bold">20 USD</h2>
-                    <button class="bg-[#E95A08] w-64 px-12 py-2"><span class="text-sm text-white font-bold">ADD TO
-                            CART</span></button>
+                    <button class="bg-[#E95A08] w-full md:px-12 py-2">
+                        <span class="text-sm text-white font-bold">ADD TO CART</span>
+                    </button>
                 </div>
-                <div class="text-center h-96 w-64">
+                <div class="text-center h-96 w-full">
                     <img src="assets/sample-flower-image.png" alt="">
                     <h1>Lily Blossom</h1>
                     <h2 class="font-bold">20 USD</h2>
-                    <button class="bg-[#E95A08] w-64 px-12 py-2"><span class="text-sm text-white font-bold">ADD TO
-                            CART</span></button>
+                    <button class="bg-[#E95A08] w-full md:px-12 py-2">
+                        <span class="text-sm text-white font-bold">ADD TO CART</span>
+                    </button>
                 </div>
-                <div class="text-center h-96 w-64">
+                <div class="text-center h-96 w-full">
                     <img src="assets/sample-flower-image.png" alt="">
                     <h1>Lily Blossom</h1>
                     <h2 class="font-bold">20 USD</h2>
-                    <button class="bg-[#E95A08] w-64 px-12 py-2"><span class="text-sm text-white font-bold">ADD TO
-                            CART</span></button>
+                    <button class="bg-[#E95A08] w-full md:px-12 py-2">
+                        <span class="text-sm text-white font-bold">ADD TO CART</span>
+                    </button>
                 </div>
-                <div class="text-center h-96 w-64">
+                <div class="text-center h-96 w-full">
                     <img src="assets/sample-flower-image.png" alt="">
                     <h1>Lily Blossom</h1>
                     <h2 class="font-bold">20 USD</h2>
-                    <button class="bg-[#E95A08] w-64 px-12 py-2"><span class="text-sm text-white font-bold">ADD TO
-                            CART</span></button>
+                    <button class="bg-[#E95A08] w-full md:px-12 py-2">
+                        <span class="text-sm text-white font-bold">ADD TO CART</span>
+                    </button>
                 </div>
-                <div class="text-center h-96 w-64">
+                <div class="text-center h-96 w-full">
                     <img src="assets/sample-flower-image.png" alt="">
                     <h1>Lily Blossom</h1>
                     <h2 class="font-bold">20 USD</h2>
-                    <button class="bg-[#E95A08] w-64 px-12 py-2"><span class="text-sm text-white font-bold">ADD TO
-                            CART</span></button>
+                    <button class="bg-[#E95A08] w-full md:px-12 py-2">
+                        <span class="text-sm text-white font-bold">ADD TO CART</span>
+                    </button>
                 </div>
-                <div class="text-center h-96 w-64">
+                <div class="text-center h-96 w-full">
                     <img src="assets/sample-flower-image.png" alt="">
                     <h1>Lily Blossom</h1>
                     <h2 class="font-bold">20 USD</h2>
-                    <button class="bg-[#E95A08] w-64 px-12 py-2"><span class="text-sm text-white font-bold">ADD TO
-                            CART</span></button>
+                    <button class="bg-[#E95A08] w-full md:px-12 py-2">
+                        <span class="text-sm text-white font-bold">ADD TO CART</span>
+                    </button>
                 </div>
+                
 
             </div>
         </section>
-        <section class="mx-40 flex justify-between mt-52 gap-14">
+        <section class="md:mx-40 mx-10 md:flex md:justify-between mt-52 gap-14">
             <div class="relative">
-                <img src="assets/flower-store.png" class="w-md h-md" alt="">
-                <img src="assets/trusted-badge.png" class="absolute -right-30 -top-40 w-sm h-sm" alt="">
+                <img src="assets/flower-store.png" class="md:w-md md:h-md" alt="">
+                <img src="assets/trusted-badge.png" class="hidden md:block absolute -right-30 -top-40 w-sm h-sm" alt="">
             </div>
-            <div class="w-md h-md px-5 py-20">
+            <div class="md:w-md h-md px-5 py-20">
                 <h1 class="font-serif font-bold text-5xl">Flower & Plants Lover</h1>
                 <ul class="text-gray-500 list-disc mt-5 ml-5">
                     <li class="mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
@@ -121,7 +136,7 @@
             </div>
         </section>
 
-        <section class="mx-40 mb-28 mt-28">
+        <section class="md:mx-40 mx-10 mb-28 mt-28">
             <div class="text-center">
                 <h1 class="font-bold text-5xl"><span class="text-[#E95A08]">Latest</span> Deals</h1>
                 <p class="text-gray-500 mt-4 mb-28">Indulge your senses with the beauty and fragrance of our fresh
@@ -129,15 +144,15 @@
                     From classic roses to
                     exotic blooms, we offer a wide variety of fresh.</p>
             </div>
-            <div class="flex justify-between">
+            <div class="md:flex md:justify-between">
                 <div class="">
                     <div><img src="assets/deal-bloom.png" class="rounded-2xl w-96 h-52 mb-2" alt=""></div>
                     <div><img src="assets/deal-ana.png" class="rounded-2xl w-96 h-52" alt=""></div>
                 </div>
-                <div><img src="assets/deal-zabo.png" class="rounded-2xl" alt=""></div>
+                <div><img src="assets/deal-zabo.png" class="rounded-2xl mt-2" alt=""></div>
             </div>
         </section>
-        
+
         <section class="bg-[url('/assets/news-letter-bg.png')] bg-cover bg-center h-full w-full">
             <div class="p-46">
                 <h1 class="text-white mb-5 font-bold text-5xl text-center">Join the colorful Bunch</h1>
@@ -148,10 +163,10 @@
             </div>
         </section>
     </main>
-    <footer class="mx-40 mt-50 mb-50 flex justify-between text-gray-500">
+    <footer class="md:mx-40 mx-10 mt-50 mb-50 md:flex md:justify-between text-gray-500">
         <div class="w-60">
             <img src="assets/logo.png" alt="">
-            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+            <p class="mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
         </div>
 
         <div class="">
@@ -160,7 +175,7 @@
                 <li class="mb-5"><a href="">About Us</a></li>
                 <li class="mb-5"><a href="">Blog</a></li>
                 <li class="mb-5"><a href="">FAQ</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li class="mb-5"><a href="">Contact Us</a></li>
             </ul>
         </div>
         <div>
@@ -169,10 +184,10 @@
                 <li class="mb-5"><a href="">Pricing</a></li>
                 <li class="mb-5"><a href="">Privacy Policy</a></li>
                 <li class="mb-5"><a href="">Terms of Services</a></li>
-                <li><a href="">Help Center</a></li>
+                <li class="mb-5"><a href="">Help Center</a></li>
             </ul>
         </div>
-        <div class="flex gap-2">
+        <div class="flex md:gap-2 gap-5">
             <img src="assets/icon-linkedin.png" class="h-5 w-5" alt="">
             <img src="assets/icon-twitter.png" class="h-5 w-5" alt="">
             <img src="assets/icon-facebook.png" class="h-5 w-5" alt="">
